@@ -1,0 +1,19 @@
+{
+  "ai": {
+    "model": "llama2",
+    "ollama_url": "http://localhost:11434",
+    "temperature": 0.1
+  },
+  "scan": {
+    "log_paths": [],
+    "max_log_lines": 1000,
+    "scan_file_strings": true,
+    "network_scan_enabled": true,
+    "registry_scan_enabled": true
+  },
+  "ui": {
+    "theme": "dark",
+    "window_width": 1200,
+    "window_height": 800
+  }
+}
