@@ -399,7 +399,7 @@ class SecurityAssistantGUI:
         
         models = self.ollama_client.list_models()
         if models:
-            model_names = [m.get('name', '').split(':')[0] for m in models]
+            model_names = [m.get('name', '') for m in models]
             self.model_dropdown.configure(values=model_names)
             messagebox.showinfo("Success", f"Found {len(models)} models.")
         else:
